@@ -1,0 +1,2 @@
+Positioning of elements in headers (perfectly as bullseye) Status: NOT COMPLETE
+Typing each code in specific sector. (style in css, codes in js, html in html) Status: NOT COMPLETE
