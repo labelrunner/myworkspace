@@ -1,4 +1,4 @@
-Positioning of elements in headers (perfectly as bullseye) Status: NOT COMPLETE
-Typing each code in specific sector. (style in css, codes in js, html in html) Status: NOT COMPLETE
-When i create a function of script in the head tag and when i call it in other tags in the body tag, it works
-only for the first tag. I need the find out a solution. Status: NOT COMPLETE
+-Positioning of elements in headers (perfectly as bullseye) Status: NOT COMPLETE
+-Typing each code in specific sector. (style in css, codes in js, html in html) Status: NOT COMPLETE
+-When i create a function of script in the head tag and when i call it in other tags in the body tag, it works
+only for the first tag. I need to find out a solution. Status: NOT COMPLETE
