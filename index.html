@@ -6,12 +6,9 @@
         function myFunction() {
             document.getElementById("demo").innerHTML = "Changing paragraphs"
         }
-        function add(x,y){
-        return x+y;
-    }
-    console.log(add(3))
-    console.log(add(3,3))
-    console.log(add(3,3,4))
+        
+    
+    
     </script>
 </head>
 
@@ -19,8 +16,8 @@
     <header style="background-color: chocolate;">
     <h2>Welcome to my workspace!</h2>
     <p id="demo">I will learn html,css and js in this workspace. It will improve my skills in time.</p>
-    <p id>Bla Bla Bla</p>
-    <button type="demo" onclick='document.getElementById("demo").innerHTML = "Testing is success"'>Click me!</button>
+    <p id="demo">Bla Bla Bla</p> <!--myFunction() doesn't work on multiple paragraphs. Only work for the first paragraph. Find out the solution ASAP */--> 
+    <button type="button" onclick='myFunction()'>Click me!</button>
     </header>
 </br>
     <header style="background-color: blanchedalmond;">
