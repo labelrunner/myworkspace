@@ -35,10 +35,41 @@ div{
 .static{
     position: relative;
     border: 3px solid #1e2ad6;
+    
 }
 
 .backGC{
     background-color: maroon;
 }
 
+.relative{
+    position: relative;
 
+
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+  }
+li{
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px white;
+    
+  }
+
+  li a:hover{
+      background-color: silver;
+  }
