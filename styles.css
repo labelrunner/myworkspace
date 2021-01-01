@@ -2,7 +2,7 @@ body{
     background-color: powderblue;
 }
 
-h1{
+h1,h2{
     color: red;
     text-align: center;
 }
@@ -15,6 +15,7 @@ p{
 div{
     background-color: whitesmoke;
     align-content: center;
+    float:inline-start;
 }
 
 .explanation{
@@ -27,8 +28,4 @@ div{
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
 
-}
-
-.imgPos{
-    align-self: center;
 }
