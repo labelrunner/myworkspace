@@ -66,10 +66,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border: 2px white;
-    
   }
 
   li a:hover{
       background-color: silver;
+  }
+
+  body{
+      background-color: rgb(13, 16, 23);
   }
