@@ -4,32 +4,28 @@
 <head>
     <script>
         function myFunction() {
-            document.getElementById("demo").innerHTML = "Changing paragraphs"
+            document.getElementById("demo").innerHTML = "Changing paragraphs with js codes"
         }
-        
-    
-    
     </script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header style="background-color: chocolate;">
-    <h2>Welcome to my workspace!</h2>
-    <p id="demo">I will learn html,css and js in this workspace. It will improve my skills in time.</p>
-    <p id="demo">Bla Bla Bla</p> <!--myFunction() doesn't work on multiple paragraphs. Only work for the first paragraph. Find out the solution ASAP */--> 
-    <button type="button" onclick='myFunction()'>Click me!</button>
-    </header>
-</br>
-    <header style="background-color: blanchedalmond;">
-        <img style="align-self: center;" id='myImage' src="black.jpg" style="width:200px">
+    <div>
+        <h1>Welcome to my workspace!</h1>
+        <p class="explanation">I will learn html,css and js in this workspace. It will improve my skills in time.</p>
+        <p id="demo">Bla Bla Bla</p>
+        <button class="buttonType" type="button" onclick='myFunction()'>Click me!</button>
+    </div>
     </br>
-        <button style="font-family: 'Courier New', Courier, monospace; padding: 20px; "
+    <div>
+        <img class="imgPos" style="align-self: center;" id='myImage' src="black.jpg" style="width:200px">
+        </br>
+        <button class="buttonType"
             onclick="document.getElementById('myImage').src='lightning.jpg'">Click to see the light</button>
-        
-
-        <button style="font-family: 'Courier New', Courier, monospace; padding: 20px; "
+        <button class="buttonType"
             onclick="document.getElementById('myImage').src='black.jpg'">Make it black again</button>
-    </header>
+    </div>
 </body>
 
 </html>
