@@ -1,0 +1,3 @@
+-Added multiple buttons into div tag
+-Added borders to div tags
+-Added css sector and connected to html sector with link tag
