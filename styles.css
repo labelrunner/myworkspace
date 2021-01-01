@@ -5,6 +5,7 @@ body{
 h1,h2{
     color: red;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p{
@@ -15,17 +16,29 @@ p{
 div{
     background-color: whitesmoke;
     align-content: center;
-    float:inline-start;
+    
 }
 
 .explanation{
     text-align: center;
     font-size: medium;
-    font-family: fantasy;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .buttonType{
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
+    
 
 }
+
+.static{
+    position: relative;
+    border: 3px solid #1e2ad6;
+}
+
+.backGC{
+    background-color: maroon;
+}
+
+

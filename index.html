@@ -6,25 +6,32 @@
         function myFunction() {
             document.getElementById("demo").innerHTML = "Changing paragraphs with js codes"
         }
+        function blablabla() {
+            document.getElementById("demo").innerHTML = "Bla Bla Bla"
+        }
     </script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div>
-        <h1>Welcome to my workspace!</h1>
-        <p class="explanation">I will learn html,css and js in this workspace. It will improve my skills in time.</p>
+    <div class="static">
+        <div class="backGC">
+            <h1>Welcome to my workspace!</h1>
+        </div>
+        <p class="explanation">I will learn <strong>html</strong>,<strong>css</strong> and <strong>java script</strong>
+            in this workspace. It will improve my skills in time.</p>
         <p id="demo">Bla Bla Bla</p>
         <button class="buttonType" type="button" onclick='myFunction()'>Click me!</button>
+        <button class="buttonType" type="button" onclick='blablabla()'>Bla Bla Bla</button>
     </div>
     </br>
-    <div>
-        <img style="align-self: center;" id='myImage' src="black.jpg" style="width:200px">
+    <div class="static">
+        <img id='myImage' src="images/black.jpg" style="width: 150px; height: 150px;">
         </br>
-        <button class="buttonType"
-            onclick="document.getElementById('myImage').src='lightning.jpg'">Click to see the light</button>
-        <button class="buttonType"
-            onclick="document.getElementById('myImage').src='black.jpg'">Make it black again</button>
+        <button class="buttonType" onclick="document.getElementById('myImage').src='images/lightning.jpg'">Lightning</button>
+        <button class="buttonType" onclick="document.getElementById('myImage').src='images/black.jpg'">Darkness</button>
+        <button class="buttonType" onclick="document.getElementById('myImage').src='images/fire.jpeg'">Burn 'em All</button>
+        <button class="buttonType" onclick="document.getElementById('myImage').src='images/water.jpg'">Water</button>
     </div>
 </body>
 
