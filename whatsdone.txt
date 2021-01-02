@@ -3,3 +3,5 @@
 -Added css sector and connected to html sector with link tag
 -Added navigation bar with list tag
 -Started JS HTML DOM examples
+-Creating internal and external javascript codes. External calls in html as <script src="script.js"></script>
+-Checking progress in browser's console (through F12 menu)
