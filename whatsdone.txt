@@ -2,6 +2,8 @@
 -Added borders to div tags
 -Added css sector and connected to html sector with link tag
 -Added navigation bar with list tag
--Started JS HTML DOM examples
+-Added title into head tag
+-Started JS HTML DOM examples (Document Object Model)
 -Creating internal and external javascript codes. External calls in html as <script src="script.js"></script>
 -Checking progress in browser's console (through F12 menu)
+-DOM can reach each html elements, html attributes, css styles and modify them all, and also can delete them all as well.
