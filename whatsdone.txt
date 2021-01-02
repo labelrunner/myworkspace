@@ -7,3 +7,4 @@
 -Creating internal and external javascript codes. External calls in html as <script src="script.js"></script>
 -Checking progress in browser's console (through F12 menu)
 -DOM can reach each html elements, html attributes, css styles and modify them all, and also can delete them all as well.
+-Added button to the lower right corner, which changes background color of the page. That button works through scripts.js. Meanwhile in Adıyaman, i learned some steps on DOM.
