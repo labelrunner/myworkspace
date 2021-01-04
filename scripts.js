@@ -11,3 +11,6 @@ document.getElementById('changeBGC').onclick=function(){
 }
 
 
+alert("Welcome to My Workspace!");
+
+
