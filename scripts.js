@@ -13,4 +13,5 @@ document.getElementById('changeBGC').onclick=function(){
 
 alert("Welcome to My Workspace!");
 
+console.trace(2+2); /* let us trace the src of the specific code */
 

@@ -1,5 +1,6 @@
--Positioning of elements in div (perfectly as bullseye) Status: NOT COMPLETE
++Positioning of elements in div tag (perfectly as bullseye) Status: COMPLETED 05.01.2021
 +Typing each code in specific sector. And connect those sectors to each other.(style in css, codes in js, html in html) Status: COMPLETED 01.01.2021
--When i create a function of script in the head tag and when i call it in other tags in the body tag, it works only for the first tag. I need to find out a solution. Status: NOT COMPLETE
+-When i create a function of a script in the head tag and when i call it in other tags in the body tag, it works only for the first tag. I need to find out a solution. Status: NOT COMPLETE
 -I need to learn that when i click on a button multiple times, it must do different things each time i click on it. Status: NOT COMPLETE
 -Next step is changing images by only one button. Status: NOT COMPLETE
+-I need to learn, how to return a text file. Status: NOT COMPLETE

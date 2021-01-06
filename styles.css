@@ -34,7 +34,7 @@ div{
 
 .static{
     position: relative;
-    border: 3px solid #1e2ad6;
+    border: 3px solid red;
     
 }
 
@@ -79,4 +79,11 @@ li a {
       background-color: rgb(13, 16, 23);
   }*/
 
+  .textbox{
+    font-size: 12px;
+    float  : left;
+    height : 197px;
+    width : 650px; 
+    text-align-last: center;
+}
   
