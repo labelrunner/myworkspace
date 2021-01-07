@@ -9,3 +9,5 @@
 -DOM can reach each html elements, html attributes, css styles and modify them all, and also can delete them all as well.
 -Added button to the lower right corner, which changes background color of the page. That button works through scripts.js. Meanwhile in Adıyaman, i learned some steps on DOM.
 -Javascript => Const, let, var learned.
+-Calling name attributes in css with tagName[name]{}
+-Slide photos in image tag with js codes
