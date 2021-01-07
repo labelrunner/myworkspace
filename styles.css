@@ -15,7 +15,7 @@ p{
 
 div{
     background-color: whitesmoke;
-    align-content: center;
+    
     
 }
 
@@ -33,7 +33,7 @@ div{
 }
 
 .static{
-    position: relative;
+    align-content: center;
     border: 3px solid red;
     
 }
@@ -58,6 +58,7 @@ ul {
 li{
     
     float: left;
+    width: 25%;
     
 }
 
@@ -83,7 +84,14 @@ li a {
     font-size: 12px;
     float  : left;
     height : 197px;
-    width : 650px; 
-    text-align-last: center;
+    width : 650px;   
 }
-  
+
+img[name=slide]{
+    position: relative;
+    
+}
+
+h1[name=slideH]{
+    background-color: maroon;
+}
