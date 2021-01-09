@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homework</title>
+</head>
+
+<body>
+    <div style="background-color: black; padding: 5%; margin: 20px; width: 200px; height: 220px; text-align: center;">
+        <div style="background-color: gold;">
+        <h1 style:"">Output:</h1>
+        <script>
+            var str = "yellow fox jumped over lazy dog lazy fox jumped over big dark lazy dog yellow fox jumped over lazy dog lazy fox jumped over big dark lazy dog yellow fox jumped over lazy dog lazy fox jumped over big dark lazy dog lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy lazy";
+            stringToArray = function (str) { //function to create an array of a sentence
+                return str.split(" ");
+            }
+            res = stringToArray(str);   
+            //console.log(res.length);  
+            function count() {          
+                res.sort();             
+                var current = null;     
+                var cnt = 0;            
+                for (var i = 0; i < res.length; i++) { 
+                    if (res[i] != current) { 
+                        if (cnt > 0) { 
+                            document.write(current + ' ----- ' + cnt + ' times<br>');
+                        }
+                        current = res[i];
+                        cnt = 1;
+                    } else {
+                        cnt++;
+                    }
+                }
+                if (cnt > 0) {
+                    document.write(current + ' ----- ' + cnt + ' times');
+                }
+            }
+            count();
+        </script>
+        </div>
+    </div>
+</body>
+
+</html>

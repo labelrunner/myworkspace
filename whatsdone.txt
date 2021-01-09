@@ -11,3 +11,4 @@
 -Javascript => Const, let, var learned.
 -Calling name attributes in css with tagName[name]{}
 -Slide photos in image tag with js codes
+-Started studying javascript on freeCodeCamp.org
